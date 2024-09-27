@@ -42,7 +42,7 @@ export const cardData = [
   {
     image:uiux ,
     meta: "UI/UX Designing",
-    link: "/ourservice/ui/ux-design",
+    link: "/ourservice/ui-ux-design",
    
   },
  
