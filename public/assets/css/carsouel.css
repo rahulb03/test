@@ -1,0 +1,49 @@
+/* components/ClientCarousel.module.css */
+.carouselContainer {
+    overflow: hidden;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .marquee {
+    display: flex;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .logoContainer {
+    flex: 0 0 auto;
+    padding: 10px;
+    margin: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .logoContainer {
+      width: 100px;
+      height: 70px;
+    }
+  }
+  
