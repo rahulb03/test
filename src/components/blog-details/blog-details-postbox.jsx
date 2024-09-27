@@ -223,7 +223,7 @@ const BlogDetailsPostbox = () => {
                                              <ul className='ml-30'>
                                              {
                                                 row?.keyBenifit?.map((e, i) => 
-                                                   <li style={{marginBottom:'10px', listStyle:'none', border:'1px solid lightgrey', padding:'0px 10px'}}>
+                                                   <li key={i} style={{marginBottom:'10px', listStyle:'none', border:'1px solid lightgrey', padding:'0px 10px'}}>
                                                       <p style={{marginBottom:'0px', fontSize:'15px'}}>{e}</p>
                                                    </li>
                                                 )

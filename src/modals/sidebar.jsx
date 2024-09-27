@@ -103,7 +103,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                     {
                         SOCIAL_DATA?.map((row, index) => {
                             return (
-                                <a className="icon facebook" target='_blank' href={row?.link}>
+                                <a key={index} className="icon facebook" target='_blank' href={row?.link}>
                                     <i className={`fab fa-${row?.icon}`}></i>
                                 </a>
                             )
