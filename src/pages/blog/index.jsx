@@ -1,7 +1,7 @@
 import React from "react";
-import Wrapper from "../layout/wrapper";
-import SEO from "../common/seo";
-import Blog from "../components/blog";
+import Wrapper from "../../layout/wrapper";
+import SEO from "../../common/seo";
+import Blog from "../../components/blog";
 
 const index = () => {
   return (

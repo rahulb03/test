@@ -147,7 +147,7 @@ const Footer = () => {
                     <ul>
                       {service_links.map((link, i) => (
                         <li key={i}>
-                          <Link onClick={scrollToTop} href={link?.link}>{link?.title}</Link>
+                          <Link onClick={""} href={link?.link}>{link?.title}</Link>
                         </li>
                       ))}
                     </ul>
@@ -168,7 +168,7 @@ const Footer = () => {
                     <ul>
                       {TECHNOLOGY_DATA.map((val, i) => (
                         <li key={i}>
-                          <Link  onClick={scrollToTop} href={val.link}>{val.title}</Link>
+                          <Link  onClick={""} href={val.link}>{val.title}</Link>
                         </li>
                       ))}
                     </ul>

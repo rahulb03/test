@@ -192,7 +192,7 @@ const Ws = () => {
                                     {sidebarServices.map((service, i) => (
                                       <li key={i}>
                                         <Link
-                                          onClick={scrollToTop}
+                                          onClick={""}
                                           href={`/ourservice/${service.id}`}
                                           className={""}
                                         >
